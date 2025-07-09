@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Party Time</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1>Party Time 🎉</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="events.html">Events</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <h2>Welcome to Party Time</h2>
+      <p>We plan unforgettable parties tailored just for you. From birthdays to weddings, we bring the magic!</p>
+    </section>
+
+    <section class="form-section">
+      <h2>Booking Form</h2>
+      <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="event">Event Type:</label>
+        <select id="event">
+          <option>Birthday</option>
+          <option>Wedding</option>
+          <option>Graduation</option>
+        </select>
+
+        <label for="date">Event Date:</label>
+        <input type="date" id="date" required>
+
+        <label for="details">Details:</label>
+        <textarea id="details" rows="4"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section class="form-section">
+      <h2>Sign Up</h2>
+      <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+
+        <button type="submit">Register</button>
+      </form>
+    </section>
+
+    <section class="gallery">
+      <h2>Photo Gallery</h2>
+      <div class="gallery-grid">
+        <div>
+          <img src="images/kratos.png" alt="Kratos">
+          <p>Kratos: Rage at the Rave</p>
+        </div>
+        <div>
+          <img src="images/lebron.png" alt="LeBron">
+          <p>LeBron: Birthday Dunk</p>
+        </div>
+        <div>
+          <img src="images/maliketh.png" alt="Maliketh">
+          <p>Maliketh: Midnight Mayhem</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Party Time. All rights reserved.</p>
+  </footer>
+</body>
+</html>
